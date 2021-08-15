@@ -1,0 +1,1119 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_441567e8710d46d59f4a70c637ebe58e {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_441567e8710d46d59f4a70c637ebe58e" ></div>
+        
+</body>
+<script>    
+    
+            var map_441567e8710d46d59f4a70c637ebe58e = L.map(
+                "map_441567e8710d46d59f4a70c637ebe58e",
+                {
+                    center: [33.668041, -117.327667],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 10,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_866358ec13874312a5bdb60067d586ea = L.tileLayer(
+                "https://cartodb-basemaps-{s}.global.ssl.fastly.net/light_all/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"http://cartodb.com/attributions\"\u003eCartoDB\u003c/a\u003e, CartoDB \u003ca href =\"http://cartodb.com/attributions\"\u003eattributions\u003c/a\u003e", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_441567e8710d46d59f4a70c637ebe58e);
+        
+    
+            var marker_60876af4b0b94ba8ac5e0f204a50f6bb = L.marker(
+                [34.06894762, -118.4451704],
+                {}
+            ).addTo(map_441567e8710d46d59f4a70c637ebe58e);
+        
+    
+            var icon_18cbfc14fd1f4c73a1d244a24a1b31f7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "university", "iconColor": "white", "markerColor": "darkblue", "prefix": "fa"}
+            );
+            marker_60876af4b0b94ba8ac5e0f204a50f6bb.setIcon(icon_18cbfc14fd1f4c73a1d244a24a1b31f7);
+        
+    
+        var popup_a61a78ba9cf54593ae230fed89c0bfaa = L.popup({"maxWidth": "100%"});
+
+        
+            var html_45ca55dd5e6e46f983aac9f7592c1ecc = $(`<div id="html_45ca55dd5e6e46f983aac9f7592c1ecc" style="width: 100.0%; height: 100.0%;">APPLICATION STATUS: NOT APPLIED</div>`)[0];
+            popup_a61a78ba9cf54593ae230fed89c0bfaa.setContent(html_45ca55dd5e6e46f983aac9f7592c1ecc);
+        
+
+        marker_60876af4b0b94ba8ac5e0f204a50f6bb.bindPopup(popup_a61a78ba9cf54593ae230fed89c0bfaa)
+        ;
+
+        
+    
+    
+            marker_60876af4b0b94ba8ac5e0f204a50f6bb.bindTooltip(
+                `<div>
+                     University of California, Los Angeles
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_04f7601a03a54a369209be572fcdb2b4 = L.marker(
+                [37.87395074, -122.2582629],
+                {}
+            ).addTo(map_441567e8710d46d59f4a70c637ebe58e);
+        
+    
+            var icon_ee49d269121540e6818a628189620d0d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "university", "iconColor": "white", "markerColor": "darkblue", "prefix": "fa"}
+            );
+            marker_04f7601a03a54a369209be572fcdb2b4.setIcon(icon_ee49d269121540e6818a628189620d0d);
+        
+    
+        var popup_cb4ecdcc920547a68bba681536b8a175 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9119a27e3d5b4cc0be86a722036d5792 = $(`<div id="html_9119a27e3d5b4cc0be86a722036d5792" style="width: 100.0%; height: 100.0%;">APPLICATION STATUS: NOT APPLIED</div>`)[0];
+            popup_cb4ecdcc920547a68bba681536b8a175.setContent(html_9119a27e3d5b4cc0be86a722036d5792);
+        
+
+        marker_04f7601a03a54a369209be572fcdb2b4.bindPopup(popup_cb4ecdcc920547a68bba681536b8a175)
+        ;
+
+        
+    
+    
+            marker_04f7601a03a54a369209be572fcdb2b4.bindTooltip(
+                `<div>
+                     University of California, Berkley
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_51ee8b6e2d454b4789c6ccad4507b1e9 = L.marker(
+                [34.13754692, -118.1250886],
+                {}
+            ).addTo(map_441567e8710d46d59f4a70c637ebe58e);
+        
+    
+            var icon_b85575ca935e48d69928808fcdf99994 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "university", "iconColor": "white", "markerColor": "darkred", "prefix": "fa"}
+            );
+            marker_51ee8b6e2d454b4789c6ccad4507b1e9.setIcon(icon_b85575ca935e48d69928808fcdf99994);
+        
+    
+        var popup_5073aad677704f6f933980810a20b673 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_df3cd1990b494a4082be4ed7802eb00a = $(`<div id="html_df3cd1990b494a4082be4ed7802eb00a" style="width: 100.0%; height: 100.0%;">APPLICATION STATUS: NOT APPLIED</div>`)[0];
+            popup_5073aad677704f6f933980810a20b673.setContent(html_df3cd1990b494a4082be4ed7802eb00a);
+        
+
+        marker_51ee8b6e2d454b4789c6ccad4507b1e9.bindPopup(popup_5073aad677704f6f933980810a20b673)
+        ;
+
+        
+    
+    
+            marker_51ee8b6e2d454b4789c6ccad4507b1e9.bindTooltip(
+                `<div>
+                     California Institute of Technology
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8ec09c8275d645eba7763a0cd72a8601 = L.marker(
+                [32.77598034, -117.0711246],
+                {}
+            ).addTo(map_441567e8710d46d59f4a70c637ebe58e);
+        
+    
+            var icon_e8a8791585164b61b65d29246e917b00 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "university", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_8ec09c8275d645eba7763a0cd72a8601.setIcon(icon_e8a8791585164b61b65d29246e917b00);
+        
+    
+        var popup_af3189f1da1d4fdfade992dbeaa903b8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4e68f01bc016476e9b6766f9a9630db5 = $(`<div id="html_4e68f01bc016476e9b6766f9a9630db5" style="width: 100.0%; height: 100.0%;">APPLICATION STATUS: NOT APPLIED</div>`)[0];
+            popup_af3189f1da1d4fdfade992dbeaa903b8.setContent(html_4e68f01bc016476e9b6766f9a9630db5);
+        
+
+        marker_8ec09c8275d645eba7763a0cd72a8601.bindPopup(popup_af3189f1da1d4fdfade992dbeaa903b8)
+        ;
+
+        
+    
+    
+            marker_8ec09c8275d645eba7763a0cd72a8601.bindTooltip(
+                `<div>
+                     San Diego State University
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2251cc7a4fc44267bff7dbe3f7a42866 = L.marker(
+                [32.8799105, -117.233756],
+                {}
+            ).addTo(map_441567e8710d46d59f4a70c637ebe58e);
+        
+    
+            var icon_60496ce579c54bb69b65dba80a92a5e7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "university", "iconColor": "white", "markerColor": "darkblue", "prefix": "fa"}
+            );
+            marker_2251cc7a4fc44267bff7dbe3f7a42866.setIcon(icon_60496ce579c54bb69b65dba80a92a5e7);
+        
+    
+        var popup_4bfc29f3de52470f89172982e49e89a8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5f7e0250578c40d28bcb949db90a5e0b = $(`<div id="html_5f7e0250578c40d28bcb949db90a5e0b" style="width: 100.0%; height: 100.0%;">APPLICATION STATUS: NOT APPLIED</div>`)[0];
+            popup_4bfc29f3de52470f89172982e49e89a8.setContent(html_5f7e0250578c40d28bcb949db90a5e0b);
+        
+
+        marker_2251cc7a4fc44267bff7dbe3f7a42866.bindPopup(popup_4bfc29f3de52470f89172982e49e89a8)
+        ;
+
+        
+    
+    
+            marker_2251cc7a4fc44267bff7dbe3f7a42866.bindTooltip(
+                `<div>
+                     University of California, San Diego
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1f11d334cbaa433d8c20c713185d1f03 = L.marker(
+                [33.64057912, -117.8435499],
+                {}
+            ).addTo(map_441567e8710d46d59f4a70c637ebe58e);
+        
+    
+            var icon_f2b41520b26f48ebbcb4da60df0dfe1a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "university", "iconColor": "white", "markerColor": "darkblue", "prefix": "fa"}
+            );
+            marker_1f11d334cbaa433d8c20c713185d1f03.setIcon(icon_f2b41520b26f48ebbcb4da60df0dfe1a);
+        
+    
+        var popup_f35d747854b84d0ab801db5c6af5ac5c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9fe81da5b56c4c0f9bf84b2ab4db4f6e = $(`<div id="html_9fe81da5b56c4c0f9bf84b2ab4db4f6e" style="width: 100.0%; height: 100.0%;">APPLICATION STATUS: NOT APPLIED</div>`)[0];
+            popup_f35d747854b84d0ab801db5c6af5ac5c.setContent(html_9fe81da5b56c4c0f9bf84b2ab4db4f6e);
+        
+
+        marker_1f11d334cbaa433d8c20c713185d1f03.bindPopup(popup_f35d747854b84d0ab801db5c6af5ac5c)
+        ;
+
+        
+    
+    
+            marker_1f11d334cbaa433d8c20c713185d1f03.bindTooltip(
+                `<div>
+                     University of California, Irvine
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_63a95dd165164da69eaaffe8b0fb29c0 = L.marker(
+                [42.35040938, -71.10572453],
+                {}
+            ).addTo(map_441567e8710d46d59f4a70c637ebe58e);
+        
+    
+            var icon_040a56ef94894702980a754fc887f7e7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "university", "iconColor": "white", "markerColor": "lightred", "prefix": "fa"}
+            );
+            marker_63a95dd165164da69eaaffe8b0fb29c0.setIcon(icon_040a56ef94894702980a754fc887f7e7);
+        
+    
+        var popup_328c337eef4b4f6dafed65ff8e0740e5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c74d5da6f84e4804b1e8c6ca4bfa206e = $(`<div id="html_c74d5da6f84e4804b1e8c6ca4bfa206e" style="width: 100.0%; height: 100.0%;">APPLICATION STATUS: NOT APPLIED</div>`)[0];
+            popup_328c337eef4b4f6dafed65ff8e0740e5.setContent(html_c74d5da6f84e4804b1e8c6ca4bfa206e);
+        
+
+        marker_63a95dd165164da69eaaffe8b0fb29c0.bindPopup(popup_328c337eef4b4f6dafed65ff8e0740e5)
+        ;
+
+        
+    
+    
+            marker_63a95dd165164da69eaaffe8b0fb29c0.bindTooltip(
+                `<div>
+                     Boston University
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ccab29647461488aad6e3a02e721bb15 = L.marker(
+                [41.82672773, -71.40252904],
+                {}
+            ).addTo(map_441567e8710d46d59f4a70c637ebe58e);
+        
+    
+            var icon_051f256373004538aee199e20ab7a0e6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "university", "iconColor": "white", "markerColor": "purple", "prefix": "fa"}
+            );
+            marker_ccab29647461488aad6e3a02e721bb15.setIcon(icon_051f256373004538aee199e20ab7a0e6);
+        
+    
+        var popup_5c59226f5eeb454f861f591a049c25f2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a3fbbace6217486c808544095f14ffbc = $(`<div id="html_a3fbbace6217486c808544095f14ffbc" style="width: 100.0%; height: 100.0%;">APPLICATION STATUS: NOT APPLIED</div>`)[0];
+            popup_5c59226f5eeb454f861f591a049c25f2.setContent(html_a3fbbace6217486c808544095f14ffbc);
+        
+
+        marker_ccab29647461488aad6e3a02e721bb15.bindPopup(popup_5c59226f5eeb454f861f591a049c25f2)
+        ;
+
+        
+    
+    
+            marker_ccab29647461488aad6e3a02e721bb15.bindTooltip(
+                `<div>
+                     Brown University
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_28fe7b5f89a94b88997fa0e69823eafa = L.marker(
+                [34.22513921, -118.8791851],
+                {}
+            ).addTo(map_441567e8710d46d59f4a70c637ebe58e);
+        
+    
+            var icon_4c53b1951fa245f0b5e15b2a35552f7b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "university", "iconColor": "white", "markerColor": "darkred", "prefix": "fa"}
+            );
+            marker_28fe7b5f89a94b88997fa0e69823eafa.setIcon(icon_4c53b1951fa245f0b5e15b2a35552f7b);
+        
+    
+        var popup_79bbbe46f11340b6b50c5162a16b8b03 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6e1689b43e5448e5bea608c92f15f735 = $(`<div id="html_6e1689b43e5448e5bea608c92f15f735" style="width: 100.0%; height: 100.0%;">APPLICATION STATUS: NOT APPLIED</div>`)[0];
+            popup_79bbbe46f11340b6b50c5162a16b8b03.setContent(html_6e1689b43e5448e5bea608c92f15f735);
+        
+
+        marker_28fe7b5f89a94b88997fa0e69823eafa.bindPopup(popup_79bbbe46f11340b6b50c5162a16b8b03)
+        ;
+
+        
+    
+    
+            marker_28fe7b5f89a94b88997fa0e69823eafa.bindTooltip(
+                `<div>
+                     California Lutheran University
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_cf98d1a237554354a3eab53316e79231 = L.marker(
+                [40.44324549, -79.94296202],
+                {}
+            ).addTo(map_441567e8710d46d59f4a70c637ebe58e);
+        
+    
+            var icon_ca6ce0aeb5014b9783b4d172456c87ce = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "university", "iconColor": "white", "markerColor": "lightred", "prefix": "fa"}
+            );
+            marker_cf98d1a237554354a3eab53316e79231.setIcon(icon_ca6ce0aeb5014b9783b4d172456c87ce);
+        
+    
+        var popup_c8f55198864e42ab92a52986cc1fac83 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4b855080e9414ee8a34aff72e42fee0e = $(`<div id="html_4b855080e9414ee8a34aff72e42fee0e" style="width: 100.0%; height: 100.0%;">APPLICATION STATUS: NOT APPLIED</div>`)[0];
+            popup_c8f55198864e42ab92a52986cc1fac83.setContent(html_4b855080e9414ee8a34aff72e42fee0e);
+        
+
+        marker_cf98d1a237554354a3eab53316e79231.bindPopup(popup_c8f55198864e42ab92a52986cc1fac83)
+        ;
+
+        
+    
+    
+            marker_cf98d1a237554354a3eab53316e79231.bindTooltip(
+                `<div>
+                     Carnegie Mellon University
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ed22d719b0c447c0a1ebb2d5f418fff8 = L.marker(
+                [34.10073809, -117.7065683],
+                {}
+            ).addTo(map_441567e8710d46d59f4a70c637ebe58e);
+        
+    
+            var icon_deea40f05a014a9b82befcb1f6fc16d4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "university", "iconColor": "white", "markerColor": "darkred", "prefix": "fa"}
+            );
+            marker_ed22d719b0c447c0a1ebb2d5f418fff8.setIcon(icon_deea40f05a014a9b82befcb1f6fc16d4);
+        
+    
+        var popup_0b33daa6bada48079d0a847aedc1c483 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_49b46deb31744096bf9f75f1b13a7ebd = $(`<div id="html_49b46deb31744096bf9f75f1b13a7ebd" style="width: 100.0%; height: 100.0%;">APPLICATION STATUS: NOT APPLIED</div>`)[0];
+            popup_0b33daa6bada48079d0a847aedc1c483.setContent(html_49b46deb31744096bf9f75f1b13a7ebd);
+        
+
+        marker_ed22d719b0c447c0a1ebb2d5f418fff8.bindPopup(popup_0b33daa6bada48079d0a847aedc1c483)
+        ;
+
+        
+    
+    
+            marker_ed22d719b0c447c0a1ebb2d5f418fff8.bindTooltip(
+                `<div>
+                     Claremont McKenna College
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d34acca008ae4ee2b1cef202167cd82f = L.marker(
+                [40.80766921, -73.96214714],
+                {}
+            ).addTo(map_441567e8710d46d59f4a70c637ebe58e);
+        
+    
+            var icon_f1e1cb36527c4d91b4d38cccda2a53ec = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "university", "iconColor": "white", "markerColor": "purple", "prefix": "fa"}
+            );
+            marker_d34acca008ae4ee2b1cef202167cd82f.setIcon(icon_f1e1cb36527c4d91b4d38cccda2a53ec);
+        
+    
+        var popup_9b8efc4a54bc47a1914786251603b6cb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c39280504ede44789d0fd6f6a020941d = $(`<div id="html_c39280504ede44789d0fd6f6a020941d" style="width: 100.0%; height: 100.0%;">APPLICATION STATUS: NOT APPLIED</div>`)[0];
+            popup_9b8efc4a54bc47a1914786251603b6cb.setContent(html_c39280504ede44789d0fd6f6a020941d);
+        
+
+        marker_d34acca008ae4ee2b1cef202167cd82f.bindPopup(popup_9b8efc4a54bc47a1914786251603b6cb)
+        ;
+
+        
+    
+    
+            marker_d34acca008ae4ee2b1cef202167cd82f.bindTooltip(
+                `<div>
+                     Columbia University
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e653a51b4f1a4e798928971265de9f08 = L.marker(
+                [42.45341735, -76.47383193],
+                {}
+            ).addTo(map_441567e8710d46d59f4a70c637ebe58e);
+        
+    
+            var icon_9beb32a6af3843c78ac424cfc0a676fa = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "university", "iconColor": "white", "markerColor": "purple", "prefix": "fa"}
+            );
+            marker_e653a51b4f1a4e798928971265de9f08.setIcon(icon_9beb32a6af3843c78ac424cfc0a676fa);
+        
+    
+        var popup_035691421f434444b574987b9afd5b59 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4b63d04cc69144b1b0de3137ddbfcf81 = $(`<div id="html_4b63d04cc69144b1b0de3137ddbfcf81" style="width: 100.0%; height: 100.0%;">APPLICATION STATUS: NOT APPLIED</div>`)[0];
+            popup_035691421f434444b574987b9afd5b59.setContent(html_4b63d04cc69144b1b0de3137ddbfcf81);
+        
+
+        marker_e653a51b4f1a4e798928971265de9f08.bindPopup(popup_035691421f434444b574987b9afd5b59)
+        ;
+
+        
+    
+    
+            marker_e653a51b4f1a4e798928971265de9f08.bindTooltip(
+                `<div>
+                     Cornell University
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6276c43bcc3e488380b2b476545b84bc = L.marker(
+                [43.70399938, -72.28812635],
+                {}
+            ).addTo(map_441567e8710d46d59f4a70c637ebe58e);
+        
+    
+            var icon_e8311c7a83834d0787e266bea7531745 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "university", "iconColor": "white", "markerColor": "purple", "prefix": "fa"}
+            );
+            marker_6276c43bcc3e488380b2b476545b84bc.setIcon(icon_e8311c7a83834d0787e266bea7531745);
+        
+    
+        var popup_7a5be7b373d843429052ba436cbe27cb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_207e225a87844616a1cbe3c91fc7ce6e = $(`<div id="html_207e225a87844616a1cbe3c91fc7ce6e" style="width: 100.0%; height: 100.0%;">APPLICATION STATUS: NOT APPLIED</div>`)[0];
+            popup_7a5be7b373d843429052ba436cbe27cb.setContent(html_207e225a87844616a1cbe3c91fc7ce6e);
+        
+
+        marker_6276c43bcc3e488380b2b476545b84bc.bindPopup(popup_7a5be7b373d843429052ba436cbe27cb)
+        ;
+
+        
+    
+    
+            marker_6276c43bcc3e488380b2b476545b84bc.bindTooltip(
+                `<div>
+                     Dartmouth College
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7e3dc83c9b55474bb787d68e96a55d44 = L.marker(
+                [36.00165801, -78.93825668],
+                {}
+            ).addTo(map_441567e8710d46d59f4a70c637ebe58e);
+        
+    
+            var icon_0be3d5d63f49471c9043a92f247ef6e1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "university", "iconColor": "white", "markerColor": "lightred", "prefix": "fa"}
+            );
+            marker_7e3dc83c9b55474bb787d68e96a55d44.setIcon(icon_0be3d5d63f49471c9043a92f247ef6e1);
+        
+    
+        var popup_1c3ff1fbab0148a8b50f57eceb88fe2d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_349f10d6ae2e451686847cb4b646fa69 = $(`<div id="html_349f10d6ae2e451686847cb4b646fa69" style="width: 100.0%; height: 100.0%;">APPLICATION STATUS: NOT APPLIED</div>`)[0];
+            popup_1c3ff1fbab0148a8b50f57eceb88fe2d.setContent(html_349f10d6ae2e451686847cb4b646fa69);
+        
+
+        marker_7e3dc83c9b55474bb787d68e96a55d44.bindPopup(popup_1c3ff1fbab0148a8b50f57eceb88fe2d)
+        ;
+
+        
+    
+    
+            marker_7e3dc83c9b55474bb787d68e96a55d44.bindTooltip(
+                `<div>
+                     Duke University
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9d7178d35254422fb36f3d7385eb2114 = L.marker(
+                [33.77507865, -84.39533359],
+                {}
+            ).addTo(map_441567e8710d46d59f4a70c637ebe58e);
+        
+    
+            var icon_4d3550694d184d81aaece133d0bd41dc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "university", "iconColor": "white", "markerColor": "lightred", "prefix": "fa"}
+            );
+            marker_9d7178d35254422fb36f3d7385eb2114.setIcon(icon_4d3550694d184d81aaece133d0bd41dc);
+        
+    
+        var popup_110b8ba379b345ec8c5b56f24a0bb75f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_90b7ec1d6d1642cd97b027397b58cc92 = $(`<div id="html_90b7ec1d6d1642cd97b027397b58cc92" style="width: 100.0%; height: 100.0%;">APPLICATION STATUS: NOT APPLIED</div>`)[0];
+            popup_110b8ba379b345ec8c5b56f24a0bb75f.setContent(html_90b7ec1d6d1642cd97b027397b58cc92);
+        
+
+        marker_9d7178d35254422fb36f3d7385eb2114.bindPopup(popup_110b8ba379b345ec8c5b56f24a0bb75f)
+        ;
+
+        
+    
+    
+            marker_9d7178d35254422fb36f3d7385eb2114.bindTooltip(
+                `<div>
+                     Georgia Institute of Technology
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1b1c51967f2a4fa59eb42d2a83fb2a49 = L.marker(
+                [42.37693089, -71.1161996],
+                {}
+            ).addTo(map_441567e8710d46d59f4a70c637ebe58e);
+        
+    
+            var icon_24015c1559ad4e9e9045b6c94b556d68 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "university", "iconColor": "white", "markerColor": "purple", "prefix": "fa"}
+            );
+            marker_1b1c51967f2a4fa59eb42d2a83fb2a49.setIcon(icon_24015c1559ad4e9e9045b6c94b556d68);
+        
+    
+        var popup_46729cf7995a4edab6eb902eed0943e5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_449b0649d2054228ada6b2ec81feb51b = $(`<div id="html_449b0649d2054228ada6b2ec81feb51b" style="width: 100.0%; height: 100.0%;">APPLICATION STATUS: NOT APPLIED</div>`)[0];
+            popup_46729cf7995a4edab6eb902eed0943e5.setContent(html_449b0649d2054228ada6b2ec81feb51b);
+        
+
+        marker_1b1c51967f2a4fa59eb42d2a83fb2a49.bindPopup(popup_46729cf7995a4edab6eb902eed0943e5)
+        ;
+
+        
+    
+    
+            marker_1b1c51967f2a4fa59eb42d2a83fb2a49.bindTooltip(
+                `<div>
+                     Harvard University
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_97a861902d314f63b9b9ced2f302cb3a = L.marker(
+                [34.10614488, -117.7085378],
+                {}
+            ).addTo(map_441567e8710d46d59f4a70c637ebe58e);
+        
+    
+            var icon_5483e0a636a44332a34bbb24aed61006 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "university", "iconColor": "white", "markerColor": "darkred", "prefix": "fa"}
+            );
+            marker_97a861902d314f63b9b9ced2f302cb3a.setIcon(icon_5483e0a636a44332a34bbb24aed61006);
+        
+    
+        var popup_bd150d7316244be8b126b08666e53b28 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4bfac7018b5840e3996b9bae51f288d3 = $(`<div id="html_4bfac7018b5840e3996b9bae51f288d3" style="width: 100.0%; height: 100.0%;">APPLICATION STATUS: NOT APPLIED</div>`)[0];
+            popup_bd150d7316244be8b126b08666e53b28.setContent(html_4bfac7018b5840e3996b9bae51f288d3);
+        
+
+        marker_97a861902d314f63b9b9ced2f302cb3a.bindPopup(popup_bd150d7316244be8b126b08666e53b28)
+        ;
+
+        
+    
+    
+            marker_97a861902d314f63b9b9ced2f302cb3a.bindTooltip(
+                `<div>
+                     Harvey Mudd College
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a1ac8d7f39fc4fd1a631c58ca32d7915 = L.marker(
+                [40.34296215, -74.65487467],
+                {}
+            ).addTo(map_441567e8710d46d59f4a70c637ebe58e);
+        
+    
+            var icon_09511057b15941aabd23d631a01068c5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "university", "iconColor": "white", "markerColor": "purple", "prefix": "fa"}
+            );
+            marker_a1ac8d7f39fc4fd1a631c58ca32d7915.setIcon(icon_09511057b15941aabd23d631a01068c5);
+        
+    
+        var popup_b566540fa3114be49cde1d168d1e8b2d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4c721e8550124b4cbc9aaa0a930c3bcc = $(`<div id="html_4c721e8550124b4cbc9aaa0a930c3bcc" style="width: 100.0%; height: 100.0%;">APPLICATION STATUS: NOT APPLIED</div>`)[0];
+            popup_b566540fa3114be49cde1d168d1e8b2d.setContent(html_4c721e8550124b4cbc9aaa0a930c3bcc);
+        
+
+        marker_a1ac8d7f39fc4fd1a631c58ca32d7915.bindPopup(popup_b566540fa3114be49cde1d168d1e8b2d)
+        ;
+
+        
+    
+    
+            marker_a1ac8d7f39fc4fd1a631c58ca32d7915.bindTooltip(
+                `<div>
+                     Princeton University
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_70477ae1906744809a4e1ea62706a697 = L.marker(
+                [37.42710914, -122.1691714],
+                {}
+            ).addTo(map_441567e8710d46d59f4a70c637ebe58e);
+        
+    
+            var icon_10e8704ab9e44e5d966166061a0a3ae3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "university", "iconColor": "white", "markerColor": "darkred", "prefix": "fa"}
+            );
+            marker_70477ae1906744809a4e1ea62706a697.setIcon(icon_10e8704ab9e44e5d966166061a0a3ae3);
+        
+    
+        var popup_5dd0b077fb7f4545acf871cb7ff3c00e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e467298d592d453aba6ae6310010eeae = $(`<div id="html_e467298d592d453aba6ae6310010eeae" style="width: 100.0%; height: 100.0%;">APPLICATION STATUS: NOT APPLIED</div>`)[0];
+            popup_5dd0b077fb7f4545acf871cb7ff3c00e.setContent(html_e467298d592d453aba6ae6310010eeae);
+        
+
+        marker_70477ae1906744809a4e1ea62706a697.bindPopup(popup_5dd0b077fb7f4545acf871cb7ff3c00e)
+        ;
+
+        
+    
+    
+            marker_70477ae1906744809a4e1ea62706a697.bindTooltip(
+                `<div>
+                     Stanford University
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8c12ac803cda4c67b4344aa3a47938a7 = L.marker(
+                [41.78863158, -87.59915692],
+                {}
+            ).addTo(map_441567e8710d46d59f4a70c637ebe58e);
+        
+    
+            var icon_fb6b9f8a965448fb912a377567a7e31a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "university", "iconColor": "white", "markerColor": "lightblue", "prefix": "fa"}
+            );
+            marker_8c12ac803cda4c67b4344aa3a47938a7.setIcon(icon_fb6b9f8a965448fb912a377567a7e31a);
+        
+    
+        var popup_a960c53e1c61446ebbc4651b679b9786 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f73f72bee5fd4a1abc84850e33849fb7 = $(`<div id="html_f73f72bee5fd4a1abc84850e33849fb7" style="width: 100.0%; height: 100.0%;">APPLICATION STATUS: NOT APPLIED</div>`)[0];
+            popup_a960c53e1c61446ebbc4651b679b9786.setContent(html_f73f72bee5fd4a1abc84850e33849fb7);
+        
+
+        marker_8c12ac803cda4c67b4344aa3a47938a7.bindPopup(popup_a960c53e1c61446ebbc4651b679b9786)
+        ;
+
+        
+    
+    
+            marker_8c12ac803cda4c67b4344aa3a47938a7.bindTooltip(
+                `<div>
+                     University of Chicago
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_64c9521463a04f0e9a93a2fca000b725 = L.marker(
+                [41.66261182, -91.55509603],
+                {}
+            ).addTo(map_441567e8710d46d59f4a70c637ebe58e);
+        
+    
+            var icon_a4269436d7ce4e66937a64b03f27a661 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "university", "iconColor": "white", "markerColor": "lightblue", "prefix": "fa"}
+            );
+            marker_64c9521463a04f0e9a93a2fca000b725.setIcon(icon_a4269436d7ce4e66937a64b03f27a661);
+        
+    
+        var popup_cb46cc212cc749f7a1dba0c76aa4416b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_03bfad0c88c443f6b8ff45e431f328b7 = $(`<div id="html_03bfad0c88c443f6b8ff45e431f328b7" style="width: 100.0%; height: 100.0%;">APPLICATION STATUS: NOT APPLIED</div>`)[0];
+            popup_cb46cc212cc749f7a1dba0c76aa4416b.setContent(html_03bfad0c88c443f6b8ff45e431f328b7);
+        
+
+        marker_64c9521463a04f0e9a93a2fca000b725.bindPopup(popup_cb46cc212cc749f7a1dba0c76aa4416b)
+        ;
+
+        
+    
+    
+            marker_64c9521463a04f0e9a93a2fca000b725.bindTooltip(
+                `<div>
+                     University of Iowa
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9e3fedc746b14361951a5e1c9ce88875 = L.marker(
+                [39.95193362, -75.19322772],
+                {}
+            ).addTo(map_441567e8710d46d59f4a70c637ebe58e);
+        
+    
+            var icon_79c25cc324194eeea59a9e8deb126a19 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "university", "iconColor": "white", "markerColor": "purple", "prefix": "fa"}
+            );
+            marker_9e3fedc746b14361951a5e1c9ce88875.setIcon(icon_79c25cc324194eeea59a9e8deb126a19);
+        
+    
+        var popup_7e5e9738f91c4d39b9b2d12bc2385b52 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1d8c9bc50e7346c8b88c6880d610e88b = $(`<div id="html_1d8c9bc50e7346c8b88c6880d610e88b" style="width: 100.0%; height: 100.0%;">APPLICATION STATUS: NOT APPLIED</div>`)[0];
+            popup_7e5e9738f91c4d39b9b2d12bc2385b52.setContent(html_1d8c9bc50e7346c8b88c6880d610e88b);
+        
+
+        marker_9e3fedc746b14361951a5e1c9ce88875.bindPopup(popup_7e5e9738f91c4d39b9b2d12bc2385b52)
+        ;
+
+        
+    
+    
+            marker_9e3fedc746b14361951a5e1c9ce88875.bindTooltip(
+                `<div>
+                     University of Pennsylvania
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3d4f54a764a442c09770963ed190c4a5 = L.marker(
+                [34.02227468, -118.285161],
+                {}
+            ).addTo(map_441567e8710d46d59f4a70c637ebe58e);
+        
+    
+            var icon_a6737edef6cd4d8899a4af27c306bfde = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "university", "iconColor": "white", "markerColor": "darkred", "prefix": "fa"}
+            );
+            marker_3d4f54a764a442c09770963ed190c4a5.setIcon(icon_a6737edef6cd4d8899a4af27c306bfde);
+        
+    
+        var popup_2c035d7d52314ce2acae3143014e9715 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d4895d949470463584aaee15228f7d7e = $(`<div id="html_d4895d949470463584aaee15228f7d7e" style="width: 100.0%; height: 100.0%;">APPLICATION STATUS: NOT APPLIED</div>`)[0];
+            popup_2c035d7d52314ce2acae3143014e9715.setContent(html_d4895d949470463584aaee15228f7d7e);
+        
+
+        marker_3d4f54a764a442c09770963ed190c4a5.bindPopup(popup_2c035d7d52314ce2acae3143014e9715)
+        ;
+
+        
+    
+    
+            marker_3d4f54a764a442c09770963ed190c4a5.bindTooltip(
+                `<div>
+                     University of Southern California
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e0883933c3df4813b3a19a237527b25d = L.marker(
+                [41.31594854, -72.92182249],
+                {}
+            ).addTo(map_441567e8710d46d59f4a70c637ebe58e);
+        
+    
+            var icon_515232ddc614440e8b645f52313bb308 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "university", "iconColor": "white", "markerColor": "purple", "prefix": "fa"}
+            );
+            marker_e0883933c3df4813b3a19a237527b25d.setIcon(icon_515232ddc614440e8b645f52313bb308);
+        
+    
+        var popup_ea33e05636024d64bdab324d48833377 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0ea56bb926794de5be32ceb2e3f764bb = $(`<div id="html_0ea56bb926794de5be32ceb2e3f764bb" style="width: 100.0%; height: 100.0%;">APPLICATION STATUS: NOT APPLIED</div>`)[0];
+            popup_ea33e05636024d64bdab324d48833377.setContent(html_0ea56bb926794de5be32ceb2e3f764bb);
+        
+
+        marker_e0883933c3df4813b3a19a237527b25d.bindPopup(popup_ea33e05636024d64bdab324d48833377)
+        ;
+
+        
+    
+    
+            marker_e0883933c3df4813b3a19a237527b25d.bindTooltip(
+                `<div>
+                     Yale University
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c9c3a4d03ff64df4a652cd2c456f840b = L.marker(
+                [33.78335112, -118.1143814],
+                {}
+            ).addTo(map_441567e8710d46d59f4a70c637ebe58e);
+        
+    
+            var icon_c22eabfe29174c04bbce8f3330fe4b19 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "university", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_c9c3a4d03ff64df4a652cd2c456f840b.setIcon(icon_c22eabfe29174c04bbce8f3330fe4b19);
+        
+    
+        var popup_c72bc8b2555148eabfd1b129fbabd986 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b2bb61449ea449879ceca6f880d6e731 = $(`<div id="html_b2bb61449ea449879ceca6f880d6e731" style="width: 100.0%; height: 100.0%;">APPLICATION STATUS: NOT APPLIED</div>`)[0];
+            popup_c72bc8b2555148eabfd1b129fbabd986.setContent(html_b2bb61449ea449879ceca6f880d6e731);
+        
+
+        marker_c9c3a4d03ff64df4a652cd2c456f840b.bindPopup(popup_c72bc8b2555148eabfd1b129fbabd986)
+        ;
+
+        
+    
+    
+            marker_c9c3a4d03ff64df4a652cd2c456f840b.bindTooltip(
+                `<div>
+                     California State University, Long Beach
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_16899a2b364147eeb4e6fc3514e21f5e = L.marker(
+                [33.88207389, -117.8845815],
+                {}
+            ).addTo(map_441567e8710d46d59f4a70c637ebe58e);
+        
+    
+            var icon_5b8bce39723544a59423f03cfea232d0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "university", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_16899a2b364147eeb4e6fc3514e21f5e.setIcon(icon_5b8bce39723544a59423f03cfea232d0);
+        
+    
+        var popup_23f6ad93f40d44908370adc2ded39563 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d7862a9086ea4e4199430d8e6f1cf509 = $(`<div id="html_d7862a9086ea4e4199430d8e6f1cf509" style="width: 100.0%; height: 100.0%;">APPLICATION STATUS: NOT APPLIED</div>`)[0];
+            popup_23f6ad93f40d44908370adc2ded39563.setContent(html_d7862a9086ea4e4199430d8e6f1cf509);
+        
+
+        marker_16899a2b364147eeb4e6fc3514e21f5e.bindPopup(popup_23f6ad93f40d44908370adc2ded39563)
+        ;
+
+        
+    
+    
+            marker_16899a2b364147eeb4e6fc3514e21f5e.bindTooltip(
+                `<div>
+                     California State University, Fullerton
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e02d4c32664f479083e93dd9ac33f88c = L.marker(
+                [34.1811973, -117.3226264],
+                {}
+            ).addTo(map_441567e8710d46d59f4a70c637ebe58e);
+        
+    
+            var icon_c1c3d75af9fc40cab90262167dc4579f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "university", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_e02d4c32664f479083e93dd9ac33f88c.setIcon(icon_c1c3d75af9fc40cab90262167dc4579f);
+        
+    
+        var popup_03874d865cd04f9991c6d4dfb6ce36c7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c84c7606a5bd42bf936d0c3d061866be = $(`<div id="html_c84c7606a5bd42bf936d0c3d061866be" style="width: 100.0%; height: 100.0%;">APPLICATION STATUS: NOT APPLIED</div>`)[0];
+            popup_03874d865cd04f9991c6d4dfb6ce36c7.setContent(html_c84c7606a5bd42bf936d0c3d061866be);
+        
+
+        marker_e02d4c32664f479083e93dd9ac33f88c.bindPopup(popup_03874d865cd04f9991c6d4dfb6ce36c7)
+        ;
+
+        
+    
+    
+            marker_e02d4c32664f479083e93dd9ac33f88c.bindTooltip(
+                `<div>
+                     California State University, San Bernardino
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b7ff6e4d358842439675d00532d491e8 = L.marker(
+                [34.06684505, -118.1681224],
+                {}
+            ).addTo(map_441567e8710d46d59f4a70c637ebe58e);
+        
+    
+            var icon_81b51df8e233457b991b5764ab62bdbc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "university", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_b7ff6e4d358842439675d00532d491e8.setIcon(icon_81b51df8e233457b991b5764ab62bdbc);
+        
+    
+        var popup_bf0190a33ed9437e86d13a6117757406 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_439f262f008e41159ff26297cd94441e = $(`<div id="html_439f262f008e41159ff26297cd94441e" style="width: 100.0%; height: 100.0%;">APPLICATION STATUS: NOT APPLIED</div>`)[0];
+            popup_bf0190a33ed9437e86d13a6117757406.setContent(html_439f262f008e41159ff26297cd94441e);
+        
+
+        marker_b7ff6e4d358842439675d00532d491e8.bindPopup(popup_bf0190a33ed9437e86d13a6117757406)
+        ;
+
+        
+    
+    
+            marker_b7ff6e4d358842439675d00532d491e8.bindTooltip(
+                `<div>
+                     California State University, Los Angeles
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2e0f8183e5774d5d8f3d85506c02144c = L.marker(
+                [37.33527649, -121.8814794],
+                {}
+            ).addTo(map_441567e8710d46d59f4a70c637ebe58e);
+        
+    
+            var icon_38c49f4d711d4010bda03d9e4264014c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "university", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_2e0f8183e5774d5d8f3d85506c02144c.setIcon(icon_38c49f4d711d4010bda03d9e4264014c);
+        
+    
+        var popup_866b0aa428534fd8b78d446069e97e5e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_96caba0f20e740db84fd11ff32b246b9 = $(`<div id="html_96caba0f20e740db84fd11ff32b246b9" style="width: 100.0%; height: 100.0%;">APPLICATION STATUS: NOT APPLIED</div>`)[0];
+            popup_866b0aa428534fd8b78d446069e97e5e.setContent(html_96caba0f20e740db84fd11ff32b246b9);
+        
+
+        marker_2e0f8183e5774d5d8f3d85506c02144c.bindPopup(popup_866b0aa428534fd8b78d446069e97e5e)
+        ;
+
+        
+    
+    
+            marker_2e0f8183e5774d5d8f3d85506c02144c.bindTooltip(
+                `<div>
+                     San Jose State University
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3609588540424ed1b72ca13eefc56f43 = L.marker(
+                [34.05811116, -117.8220172],
+                {}
+            ).addTo(map_441567e8710d46d59f4a70c637ebe58e);
+        
+    
+            var icon_e20cb3ae79924c3f8a9ee7079e1c301d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "university", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_3609588540424ed1b72ca13eefc56f43.setIcon(icon_e20cb3ae79924c3f8a9ee7079e1c301d);
+        
+    
+        var popup_bb43fe479bbd4b83a23e02064f0c53e7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_84823192cd2345f59f2643088bdee36a = $(`<div id="html_84823192cd2345f59f2643088bdee36a" style="width: 100.0%; height: 100.0%;">APPLICATION STATUS: NOT APPLIED</div>`)[0];
+            popup_bb43fe479bbd4b83a23e02064f0c53e7.setContent(html_84823192cd2345f59f2643088bdee36a);
+        
+
+        marker_3609588540424ed1b72ca13eefc56f43.bindPopup(popup_bb43fe479bbd4b83a23e02064f0c53e7)
+        ;
+
+        
+    
+    
+            marker_3609588540424ed1b72ca13eefc56f43.bindTooltip(
+                `<div>
+                     California Polytechnic University, Pomona
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_11f096314d0642689f46707999c59305 = L.marker(
+                [35.30431331, -120.6622682],
+                {}
+            ).addTo(map_441567e8710d46d59f4a70c637ebe58e);
+        
+    
+            var icon_a1144094258145e28a17b244d0c17f00 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "university", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_11f096314d0642689f46707999c59305.setIcon(icon_a1144094258145e28a17b244d0c17f00);
+        
+    
+        var popup_4a7ef8aceaf947b58a5f6f8835d4cd7a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_197d30193b634e5093408607136ca6c2 = $(`<div id="html_197d30193b634e5093408607136ca6c2" style="width: 100.0%; height: 100.0%;">APPLICATION STATUS: NOT APPLIED</div>`)[0];
+            popup_4a7ef8aceaf947b58a5f6f8835d4cd7a.setContent(html_197d30193b634e5093408607136ca6c2);
+        
+
+        marker_11f096314d0642689f46707999c59305.bindPopup(popup_4a7ef8aceaf947b58a5f6f8835d4cd7a)
+        ;
+
+        
+    
+    
+            marker_11f096314d0642689f46707999c59305.bindTooltip(
+                `<div>
+                     California Polytechnic State University
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
